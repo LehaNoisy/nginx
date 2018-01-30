@@ -60,3 +60,18 @@
 2018/01/30 16:43:08 [emerg] 7083#0: invalid number of arguments in "include" directive in /home/Leha_Noisy/nginx/conf/nginx.conf:23
 2018/01/30 16:44:04 [error] 7450#0: *1 open() "/home/Leha_Noisy/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.109, server: 192.168.122.109, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.109:8080"
 2018/01/30 16:44:04 [error] 7450#0: *1 open() "/home/Leha_Noisy/nginx/html/home/Leha_Noisy/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.122.109, server: 192.168.122.109, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.109:8080"
+2018/01/30 17:07:04 [emerg] 8734#0: location "/" is outside location "/admin" in /home/Leha_Noisy/nginx/conf/vhosts/backend.conf:21
+2018/01/30 17:09:18 [emerg] 9466#0: location "/" is outside location "/admin" in /home/Leha_Noisy/nginx/conf/vhosts/backend.conf:21
+2018/01/30 17:10:07 [emerg] 9989#0: location "/" is outside location "/admin" in /home/Leha_Noisy/nginx/conf/vhosts/backend.conf:21
+2018/01/30 17:14:14 [emerg] 10203#0: "location" directive is not allowed here in /home/Leha_Noisy/nginx/conf/vhosts/backend.conf:36
+2018/01/30 17:14:46 [emerg] 10321#0: "location" directive is not allowed here in /home/Leha_Noisy/nginx/conf/vhosts/backend.conf:37
+2018/01/30 17:15:54 [emerg] 10523#0: "location" directive is not allowed here in /home/Leha_Noisy/nginx/conf/vhosts/backend.conf:37
+2018/01/30 17:18:10 [error] 3780#0: *1 open() "/home/Leha_Noisy/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.109, server: 192.168.122.109, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.109:8080"
+2018/01/30 17:18:10 [error] 3780#0: *1 open() "/home/Leha_Noisy/nginx/html/home/Leha_Noisy/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.122.109, server: 192.168.122.109, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.109:8080"
+2018/01/30 17:19:58 [emerg] 4195#0: location "/" is outside location "/admin" in /home/Leha_Noisy/nginx/conf/vhosts/backend.conf:22
+2018/01/30 17:20:19 [emerg] 4432#0: "location" directive is not allowed here in /home/Leha_Noisy/nginx/conf/vhosts/backend.conf:37
+2018/01/30 17:20:41 [emerg] 4571#0: "location" directive is not allowed here in /home/Leha_Noisy/nginx/conf/vhosts/backend.conf:37
+2018/01/30 17:21:47 [emerg] 4864#0: "location" directive is not allowed here in /home/Leha_Noisy/nginx/conf/vhosts/backend.conf:39
+2018/01/30 17:23:30 [error] 5221#0: *1 access forbidden by rule, client: 192.168.124.1, server: 192.168.122.109, request: "GET / HTTP/1.1", host: "192.168.124.1:8080"
+2018/01/30 17:23:30 [error] 5221#0: *1 access forbidden by rule, client: 192.168.124.1, server: 192.168.122.109, request: "GET /favicon.ico HTTP/1.1", host: "192.168.124.1:8080"
+2018/01/30 17:23:30 [error] 5221#0: *1 access forbidden by rule, client: 192.168.124.1, server: 192.168.122.109, request: "GET /favicon.ico HTTP/1.1", host: "192.168.124.1:8080"
